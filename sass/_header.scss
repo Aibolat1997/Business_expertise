@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 16px 22px;
+    border-bottom: 1px solid #6F7E9E;
+}
+.logo {
+    background: url(../design/logo.svg) left center no-repeat;
+    width: 74px;
+    height: 29px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    &__link {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #021747;
+        display: none;
+        padding: 11px 12px;
+    }
+
+    &__burger {
+        background: url(../design/burger.svg) right center no-repeat;
+        display: block;
+        width: 18px;
+        height: 13px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        padding: 3% 5%;
+    }
+    .menu__link {
+        display: inline-block;
+        margin-right: 48px;
+    }
+}

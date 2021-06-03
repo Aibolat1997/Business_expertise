@@ -1,0 +1,27 @@
+.transitions {
+    margin-top: 26px;
+    // margin-left: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    order: 0;
+    
+    &__link {
+        color: #021747;
+        opacity: 0.5;
+
+        &:hover {
+            color: #021747;
+            opacity: 1;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            order: 2;
+        }
+    }
+
+    &__delimiter {
+        color: #021747;
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,30 @@
+.chemist {
+    display: none;
+    position: relative;
+    width: 146px;
+    height: 300px;
+
+    &__cloak {
+        background: url(../design/cloak.svg) no-repeat center;
+        position: absolute;
+        top: 69%;
+        left: 130%;
+        z-index: 2;
+        padding: 70px;
+    }
+
+    &__chimical {
+        background: url(../design/chemist.svg) no-repeat center;
+        position: absolute;
+        top: 33%;
+        left: 100%;
+        padding: 150px 90px;
+        z-index: 3;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .chemist {
+        display: block;
+    }
+}
